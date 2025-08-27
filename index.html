@@ -89,6 +89,7 @@
                 <button class="tab-button pb-2 px-1 active" onclick="openTab('allocation')">Alocação</button>
                 <button class="tab-button pb-2 px-1" onclick="openTab('revenue')">Receita</button>
                 <button class="tab-button pb-2 px-1" onclick="openTab('cashflow')">Fluxo de Caixa</button>
+                <button class="tab-button pb-2 px-1" onclick="openTab('market')">Mercado</button>
                 <button class="tab-button pb-2 px-1" onclick="openTab('strategy')">Estratégia</button>
             </div>
 
@@ -181,6 +182,34 @@
                                 <p class="text-slate-600">Foco em crescimento orgânico após validação inicial</p>
                             </div>
                         </div>
+                    </div>
+                    
+                    <div class="mt-8 bg-white border border-blue-200 rounded-xl p-6">
+                        <h3 class="text-lg font-semibold text-blue-800 mb-3 flex items-center">
+                            <i class="fas fa-check-circle text-blue-500 mr-2"></i> Conclusão: Alocação Estratégica
+                        </h3>
+                        <p class="text-slate-700">A distribuição do capital foi cuidadosamente planejada para maximizar a validação do modelo de negócios, com foco em gerar dados reais de mercado enquanto mantém uma reserva de segurança. O investimento em marketing garante alcance, o estoque inicial permite testar a demanda, e o capital de giro assegura flexibilidade para ajustes rápidos.</p>
+                    </div>
+                    
+                    <div class="mt-8 bg-white border border-green-200 rounded-xl p-6">
+                        <h3 class="text-lg font-semibold text-green-800 mb-3 flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i> Conclusão: Rentabilidade Comprovada
+                        </h3>
+                        <p class="text-slate-700">As margens líquidas acima de 40% demonstram a viabilidade econômica do modelo, com potencial para melhorias através de ganhos de escala. O break-even point alcançável em menos de 200 vendas comprova que este é um negócio com retorno rápido e baixo risco operacional.</p>
+                    </div>
+                    
+                    <div class="mt-8 bg-white border border-purple-200 rounded-xl p-6">
+                        <h3 class="text-lg font-semibold text-purple-800 mb-3 flex items-center">
+                            <i class="fas fa-check-circle text-purple-500 mr-2"></i> Conclusão: Sustentabilidade Financeira
+                        </h3>
+                        <p class="text-slate-700">O fluxo de caixa projetado mostra como o negócio se torna autossustentável em apenas 3 meses, com crescimento mensal consistente. A reserva estratégica garante solvência durante o período de validação, enquanto o aumento progressivo das vendas cria uma base sólida para escalabilidade.</p>
+                    </div>
+                    
+                    <div class="mt-8 bg-white border border-yellow-200 rounded-xl p-6">
+                        <h3 class="text-lg font-semibold text-yellow-800 mb-3 flex items-center">
+                            <i class="fas fa-check-circle text-yellow-500 mr-2"></i> Conclusão: Sistema Reproduzível
+                        </h3>
+                        <p class="text-slate-700">O funil de vendas estruturado em 5 etapas garante um processo consistente e escalável, com métricas claras para cada fase. A redução progressiva do CAC comprova a eficiência do modelo, que pode ser replicado em novos mercados ou linhas de produtos após validação inicial.</p>
                     </div>
                 </section>
             </div>
@@ -381,22 +410,28 @@
                                     <td class="py-3 px-4 font-semibold">-</td>
                                 </tr>
                                 <tr>
-                                    <td class="py-3 px-4 font-medium">Saída de Aporte</td>
-                                    <td class="py-3 px-4 font-semibold">R$ 25.000,00</td>
+                                    <td class="py-3 px-4 font-medium">Saída de Aporte (Total)</td>
+                                    <td class="py-3 px-4 font-semibold">R$ 40.000,00</td>
                                     <td class="py-3 px-4 font-semibold">-</td>
                                     <td class="py-3 px-4 font-semibold">-</td>
                                 </tr>
-                                <tr>
-                                    <td class="py-3 px-4 font-medium">Saída de Marketing</td>
-                                    <td class="py-3 px-4 font-semibold">R$ 15.000,00</td>
-                                    <td class="py-3 px-4 font-semibold">-</td>
-                                    <td class="py-3 px-4 font-semibold">-</td>
+                                <tr class="text-sm text-slate-500">
+                                    <td class="py-2 px-4 pl-8">↳ Capital de Giro</td>
+                                    <td class="py-2 px-4">R$ 15.000,00</td>
+                                    <td class="py-2 px-4">-</td>
+                                    <td class="py-2 px-4">-</td>
                                 </tr>
-                                <tr>
-                                    <td class="py-3 px-4 font-medium">Saída de Estoque</td>
-                                    <td class="py-3 px-4 font-semibold">R$ 10.000,00</td>
-                                    <td class="py-3 px-4 font-semibold">-</td>
-                                    <td class="py-3 px-4 font-semibold">-</td>
+                                <tr class="text-sm text-slate-500">
+                                    <td class="py-2 px-4 pl-8">↳ Marketing Digital</td>
+                                    <td class="py-2 px-4">R$ 15.000,00</td>
+                                    <td class="py-2 px-4">-</td>
+                                    <td class="py-2 px-4">-</td>
+                                </tr>
+                                <tr class="text-sm text-slate-500">
+                                    <td class="py-2 px-4 pl-8">↳ Estoque Inicial</td>
+                                    <td class="py-2 px-4">R$ 10.000,00</td>
+                                    <td class="py-2 px-4">-</td>
+                                    <td class="py-2 px-4">-</td>
                                 </tr>
                                 <tr class="bg-green-50">
                                     <td class="py-3 px-4 font-medium">Entrada de Vendas</td>
@@ -418,6 +453,204 @@
                                 </tr>
                             </tbody>
                         </table>
+                    </div>
+
+                    <!-- Projeção de Rentabilidade e Excedentes -->
+                    <div class="mt-12 bg-gradient-to-r from-green-50 to-blue-50 border border-slate-200 rounded-xl p-6 shadow-sm">
+                        <h3 class="text-xl font-semibold text-slate-800 mb-6 flex items-center">
+                            <i class="fas fa-chart-line text-green-600 mr-3"></i> Projeção de Rentabilidade e Excedentes
+                        </h3>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                            <div class="bg-white p-4 rounded-lg border border-green-200">
+                                <h4 class="font-semibold text-green-700 mb-3 flex items-center">
+                                    <i class="fas fa-trophy mr-2"></i> Ponto de Lucro > Custos
+                                </h4>
+                                <div class="text-center bg-green-50 rounded-lg p-4">
+                                    <p class="text-3xl font-bold text-green-700">Mês 1</p>
+                                    <p class="text-sm text-green-600 mt-1">Lucro já supera custos operacionais desde o primeiro mês</p>
+                                </div>
+                                <p class="text-sm text-slate-600 mt-3">
+                                    Com margem líquida de 42.3%, o negócio gera lucro desde o início, 
+                                    demonstrando viabilidade imediata mesmo durante a fase de validação.
+                                </p>
+                            </div>
+                            
+                            <div class="bg-white p-4 rounded-lg border border-blue-200">
+                                <h4 class="font-semibold text-blue-700 mb-3 flex items-center">
+                                    <i class="fas fa-piggy-bank mr-2"></i> Geração de Excedentes
+                                </h4>
+                                <div class="text-center bg-blue-50 rounded-lg p-4">
+                                    <p class="text-3xl font-bold text-blue-700">Mês 3</p>
+                                    <p class="text-sm text-blue-600 mt-1">Saldo total excede o aporte inicial</p>
+                                </div>
+                                <p class="text-sm text-slate-600 mt-3">
+                                    A partir do 3º mês, o saldo acumulado (R$ 20.176,55) já supera o valor 
+                                    destinado a marketing + estoque (R$ 25.000), gerando excedentes para reinvestimento.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white p-4 rounded-lg border border-purple-200">
+                            <h4 class="font-semibold text-purple-700 mb-4 flex items-center">
+                                <i class="fas fa-calendar-alt mr-2"></i> Timeline de Excedentes para Reinvestimento
+                            </h4>
+                            <div class="space-y-4">
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mr-3">
+                                        <span class="text-green-600 font-bold">1</span>
+                                    </div>
+                                    <div>
+                                        <p class="font-medium text-slate-800">Mês 1-2: Consolidação</p>
+                                        <p class="text-sm text-slate-600">Lucro reinvestido em otimização do funil e aumento de capacidade</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+                                        <span class="text-blue-600 font-bold">2</span>
+                                    </div>
+                                    <div>
+                                        <p class="font-medium text-slate-800">Mês 3: Primeiros Excedentes</p>
+                                        <p class="text-sm text-slate-600">R$ 4.551,55 de lucro acumulado disponível para novos investimentos</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mr-3">
+                                        <span class="text-purple-600 font-bold">3</span>
+                                    </div>
+                                    <div>
+                                        <p class="font-medium text-slate-800">Mês 6: Escalabilidade</p>
+                                        <p class="text-sm text-slate-600">Previsão de R$ 15.000+ em excedentes para expansão para novos mercados</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-6 p-4 bg-yellow-50 rounded-lg border border-yellow-200">
+                            <h4 class="font-semibold text-yellow-700 mb-2 flex items-center">
+                                <i class="fas fa-lightbulb mr-2"></i> Oportunidades de Alocação
+                            </h4>
+                            <p class="text-sm text-slate-700">
+                                Os excedentes podem ser direcionados para: expansão de linha de produtos, 
+                                aumento de investimento em marketing (reduzindo CAC), desenvolvimento de 
+                                novas plataformas de venda, ou constituição de reserva estratégica para 
+                                oportunidades emergentes.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div id="market" class="tab-content hidden">
+                <section class="mb-16">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-orange-100 p-3 rounded-full mr-4">
+                            <i class="fas fa-search text-orange-600 text-xl"></i>
+                        </div>
+                        <h2 class="text-2xl md:text-3xl font-bold text-slate-800">Análise de Mercado - Volume de Pesquisas</h2>
+                    </div>
+                    <p class="text-slate-600 mb-8 text-lg">Dados de interesse do mercado baseados em pesquisas mensais no Google, demonstrando a demanda potencial para cada produto.</p>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                        <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+                            <h3 class="text-lg font-semibold text-slate-800 mb-4 flex items-center">
+                                <i class="fas fa-chart-bar text-blue-500 mr-2"></i> Volume de Pesquisas Mensais
+                            </h3>
+                            <div class="space-y-4">
+                                <div class="flex justify-between items-center p-3 bg-blue-50 rounded-lg">
+                                    <span class="font-medium text-blue-800">Cúrcuma</span>
+                                    <span class="font-bold text-blue-600">100 mil - 1 mi</span>
+                                </div>
+                                <div class="flex justify-between items-center p-3 bg-green-50 rounded-lg">
+                                    <span class="font-medium text-green-800">Ômega 3</span>
+                                    <span class="font-bold text-green-600">100 mil - 1 mi</span>
+                                </div>
+                                <div class="flex justify-between items-center p-3 bg-purple-50 rounded-lg">
+                                    <span class="font-medium text-purple-800">Cloreto de Magnésio</span>
+                                    <span class="font-bold text-purple-600">10 mil - 100 mil</span>
+                                </div>
+                                <div class="flex justify-between items-center p-3 bg-orange-50 rounded-lg">
+                                    <span class="font-medium text-orange-800">Condro</span>
+                                    <span class="font-bold text-orange-600">1 mil - 10 mil</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+                            <h3 class="text-lg font-semibold text-slate-800 mb-4 flex items-center">
+                                <i class="fas fa-lightbulb text-yellow-500 mr-2"></i> Insights Estratégicos
+                            </h3>
+                            <div class="space-y-3">
+                                <div class="flex items-start">
+                                    <div class="bg-blue-100 p-1 rounded-full mr-3 mt-1">
+                                        <i class="fas fa-check text-blue-500 text-xs"></i>
+                                    </div>
+                                    <p class="text-sm text-slate-600">Cúrcuma e Ômega 3 representam mercados massivos com alto potencial de conversão</p>
+                                </div>
+                                <div class="flex items-start">
+                                    <div class="bg-blue-100 p-1 rounded-full mr-3 mt-1">
+                                        <i class="fas fa-check text-blue-500 text-xs"></i>
+                                    </div>
+                                    <p class="text-sm text-slate-600">Cloreto de Magnésio oferece nicho sólido com concorrência potencialmente menor</p>
+                                </div>
+                                <div class="flex items-start">
+                                    <div class="bg-blue-100 p-1 rounded-full mr-3 mt-1">
+                                        <i class="fas fa-check text-blue-500 text-xs"></i>
+                                    </div>
+                                    <p class="text-sm text-slate-600">Condro representa oportunidade especializada com audiência altamente segmentada</p>
+                                </div>
+                                <div class="flex items-start">
+                                    <div class="bg-blue-100 p-1 rounded-full mr-3 mt-1">
+                                        <i class="fas fa-check text-blue-500 text-xs"></i>
+                                    </div>
+                                    <p class="text-sm text-slate-600">Portfólio diversificado permite testes de mercado com diferentes níveis de demanda</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+                        <h3 class="text-lg font-semibold text-slate-800 mb-4 flex items-center">
+                            <i class="fas fa-target text-red-500 mr-2"></i> Priorização de Investimento em Marketing
+                        </h3>
+                        <div class="overflow-x-auto">
+                            <table class="w-full">
+                                <thead>
+                                    <tr>
+                                        <th class="text-left py-3 px-4 bg-slate-100 rounded-tl-lg">Produto</th>
+                                        <th class="text-left py-3 px-4 bg-slate-100">Volume de Busca</th>
+                                        <th class="text-left py-3 px-4 bg-slate-100">Potencial de Mercado</th>
+                                        <th class="text-left py-3 px-4 bg-slate-100 rounded-tr-lg">Prioridade</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-slate-200">
+                                    <tr>
+                                        <td class="py-3 px-4 font-medium">Cúrcuma</td>
+                                        <td class="py-3 px-4 font-semibold">Alto (100k-1M)</td>
+                                        <td class="py-3 px-4">Massa</td>
+                                        <td class="py-3 px-4 font-bold text-green-600">Alta</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3 px-4 font-medium">Ômega 3</td>
+                                        <td class="py-3 px-4 font-semibold">Alto (100k-1M)</td>
+                                        <td class="py-3 px-4">Massa</td>
+                                        <td class="py-3 px-4 font-bold text-green-600">Alta</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3 px-4 font-medium">Cloreto de Magnésio</td>
+                                        <td class="py-3 px-4 font-semibold">Médio (10k-100k)</td>
+                                        <td class="py-3 px-4">Nicho</td>
+                                        <td class="py-3 px-4 font-bold text-yellow-600">Média</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3 px-4 font-medium">Condro</td>
+                                        <td class="py-3 px-4 font-semibold">Baixo (1k-10k)</td>
+                                        <td class="py-3 px-4">Especializado</td>
+                                        <td class="py-3 px-4 font-bold text-blue-600">Teste</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </section>
             </div>
@@ -563,6 +796,60 @@
                     </div>
                 </section>
             </div>
+
+            <!-- Infographic Section -->
+            <section class="mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-800 mb-6 text-center">Visão Geral do Negócio</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Allocation -->
+                    <div class="bg-white p-6 rounded-xl shadow-md border border-blue-100">
+                        <div class="text-blue-600 text-3xl mb-3">
+                            <i class="fas fa-money-bill-wave"></i>
+                        </div>
+                        <h3 class="font-bold text-lg mb-2">Alocação Eficiente</h3>
+                        <p class="text-sm text-slate-600">37.5% marketing, 25% estoque, 37.5% reserva estratégica</p>
+                        <div class="mt-4 h-2 bg-blue-100 rounded-full">
+                            <div class="h-2 bg-blue-500 rounded-full" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Revenue -->
+                    <div class="bg-white p-6 rounded-xl shadow-md border border-green-100">
+                        <div class="text-green-600 text-3xl mb-3">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="font-bold text-lg mb-2">Margem Saudável</h3>
+                        <p class="text-sm text-slate-600">42% de margem líquida por venda</p>
+                        <div class="mt-4 h-2 bg-green-100 rounded-full">
+                            <div class="h-2 bg-green-500 rounded-full" style="width: 42%"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Cashflow -->
+                    <div class="bg-white p-6 rounded-xl shadow-md border border-purple-100">
+                        <div class="text-purple-600 text-3xl mb-3">
+                            <i class="fas fa-piggy-bank"></i>
+                        </div>
+                        <h3 class="font-bold text-lg mb-2">Crescimento do Caixa</h3>
+                        <p class="text-sm text-slate-600">De R$16k para R$20k em 3 meses</p>
+                        <div class="mt-4 h-2 bg-purple-100 rounded-full">
+                            <div class="h-2 bg-purple-500 rounded-full" style="width: 25%"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Strategy -->
+                    <div class="bg-white p-6 rounded-xl shadow-md border border-yellow-100">
+                        <div class="text-yellow-600 text-3xl mb-3">
+                            <i class="fas fa-chess-knight"></i>
+                        </div>
+                        <h3 class="font-bold text-lg mb-2">Conversão Otimizada</h3>
+                        <p class="text-sm text-slate-600">Funil de 5 etapas com CAC decrescente</p>
+                        <div class="mt-4 h-2 bg-yellow-100 rounded-full">
+                            <div class="h-2 bg-yellow-500 rounded-full" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <section class="bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl p-8 mb-8">
                 <div class="flex flex-col md:flex-row items-center">
